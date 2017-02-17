@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AreaTriangulo</string>
+    <string name="lblLadoA">Medida del Lado A :</string>
+    <string name="lblLadoB">Medida del Lado B :</string>
+    <string name="lblLadoC">Medida del Lado C :</string>
+    <string name="btnTextCalcular">Calcular Área</string>
+    <string name="lblTextToRes">El Área es :</string>
+    <string name="lblResultado">-----</string>
+</resources>
