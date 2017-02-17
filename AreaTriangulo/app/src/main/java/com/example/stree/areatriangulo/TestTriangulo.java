@@ -1,6 +1,4 @@
-/**
- * Created by teo on 16/02/2017.
- */
+package com.example.stree.areatriangulo;
 
 public class TestTriangulo {
 
@@ -8,7 +6,7 @@ public class TestTriangulo {
     double s = 0;
     double area = 0;
 
-    public boolean validar(Triangulos T) {
+    public boolean validar(Triangulo T) {
         if ((T.getA() + T.getB()) < T.getC()) {
             return false;
         } else {
@@ -17,11 +15,11 @@ public class TestTriangulo {
 
     }
 
-    public String Area(Triangulos T) {
+    public String Area(Triangulo T) {
 
         if ( validar(T))
         {
-            int a, b, c;
+            double a, b, c;
             a = T.getA();
             b = T.getB();
             c = T.getC();
@@ -36,27 +34,4 @@ public class TestTriangulo {
 
         return String.valueOf(area);
     }
-
-    public String Ejemplo1(){
-        Triangulos T = new Triangulos();
-
-        T.setA(3);
-        T.setB(4);
-        T.setC(5);
-
-        return Area(T);
-    }
-
-    public String Ejemplo2(){
-        Triangulos T = new Triangulos();
-
-        T.setA(3);
-        T.setB(1);
-        T.setC(5);
-
-        return Area(T);
-    }
-
-
-
 }

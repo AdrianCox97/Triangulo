@@ -1,6 +1,4 @@
-/**
- * Created by teo on 17/02/2017.
- */
+package com.example.stree.areatriangulo;
 
 public class Triangulo {
     private double a;
